@@ -1,5 +1,5 @@
 # 提取信息并计数
-import openpyxl
+import openpyxl123
 wb=openpyxl.load_workbook('作者')
 sh=wb['Sheet1']
 row=sh.max_row  #行数
